@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Test Your Typing Speed</title>
+</head>
+<body>
+      <header id ="head">
+        <h1>TypeSpeed</h1>
+      </header> 
+  <div class="container">
+        <div class="wrapper">
+          <select id="level">
+            <option value="">Choose level</option>
+            <option value="10">Very-Easy</option>
+            <option value="5">Easy</option>
+          <option value="3">Medium</option>
+          <option value="2">Hard</option>
+            </select>
+            <button id="start">Start</button>
+          <div id="time">
+            <p>Type the given word within<span id ="sec"></span>Seconds</p>
+          </div>
+          <div id="word"></div>
+          <input type="text" id="inputterm" placeholder="Start typing...">
+           <div id="result"></div>
+           <div >Time left:<span id="timeleft"></span></div>
+           <div >Score:<span id="score"></span></div>
+           <div id="instruction">
+             <p>Instruction</p>
+             <p>To play, first choose the level then click start <br>
+             Type each word in the given amount to score. To play again,
+               just type the current word. Your score will reset. </p>
+               <p id="me">Created by Abhishek </p>
+
+            
+           </div>
+        </div>
+      </div> 
+<script src="main.js"></script>
+</body>
+</html>
